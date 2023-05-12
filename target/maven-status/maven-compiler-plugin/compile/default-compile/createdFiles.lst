@@ -14,6 +14,7 @@ com\apjoaquin\apjoaquin\Security\jwt\JwtTokenFilter.class
 com\apjoaquin\apjoaquin\Security\MainSecurity.class
 com\apjoaquin\apjoaquin\Entity\Educacion.class
 com\apjoaquin\apjoaquin\Service\SExperiencia.class
+com\apjoaquin\apjoaquin\WebConfig.class
 com\apjoaquin\apjoaquin\Security\Controller\Mensaje.class
 com\apjoaquin\apjoaquin\Service\ImpPersonaService.class
 com\apjoaquin\apjoaquin\Security\Dto\NuevoUsuario.class
