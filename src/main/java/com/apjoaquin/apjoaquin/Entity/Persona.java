@@ -11,7 +11,7 @@ import javax.validation.constraints.Size;
 public class Persona{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
     @NotNull
     @Size(min = 1, max = 50, message = "Supera el maximo de caracteres")
     private String nombre;
@@ -23,10 +23,20 @@ public class Persona{
     @Size(min = 1, max = 50, message = "Supera el maximo de caracteres")
     private String img;
 
+    public Persona() {
+    }
+
+    public Persona(String nombre, String apellido, String descripcion, String img) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.img = img;
+    }
+    
+    
     //aqui estan los getters y setters para que se vean, se podia colocar las dos notation 
     //"@Getter y "@Setter" funcionando igual pero sin ver el codigo.
     
-    public long getId() {
+    public int getId() {
         return id;
     }
     public void setId(int id) {
