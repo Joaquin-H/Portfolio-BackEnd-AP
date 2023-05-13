@@ -1,5 +1,3 @@
-/* el nombre es I de interface Persona Repository*/
-
 package com.apjoaquin.apjoaquin.Repository;
 
 import com.apjoaquin.apjoaquin.Entity.Persona;

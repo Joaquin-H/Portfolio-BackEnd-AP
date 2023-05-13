@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.apjoaquin.apjoaquin.Controller;
 
 import com.apjoaquin.apjoaquin.Dto.dtoEducacion;
@@ -25,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = "https://portfolio-ap-fb.web.app")
+@CrossOrigin(origins = {"https://argpr-portfolio.web.app","http://localhost:4200"})
 public class CEducacion {
     @Autowired
     SEducacion sEducacion;

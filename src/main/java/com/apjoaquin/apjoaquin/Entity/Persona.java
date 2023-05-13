@@ -32,10 +32,6 @@ public class Persona{
         this.img = img;
     }
     
-    
-    //aqui estan los getters y setters para que se vean, se podia colocar las dos notation 
-    //"@Getter y "@Setter" funcionando igual pero sin ver el codigo.
-    
     public int getId() {
         return id;
     }

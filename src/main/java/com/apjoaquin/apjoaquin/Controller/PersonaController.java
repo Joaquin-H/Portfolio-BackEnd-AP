@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "https://portfolio-ap-fb.web.app")
+@CrossOrigin(origins = {"https://argpr-portfolio.web.app","http://localhost:4200"})
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
@@ -26,13 +26,12 @@ public class PersonaController {
         List<Persona> list = personaService.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
+   
     
     @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id")int id){
-        if(!personaService.existsById(id)){
+        if(!personaService.existsById(id))
             return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.BAD_REQUEST);
-        }
-        
         Persona persona = personaService.getOne(id).get();
         return new ResponseEntity(persona, HttpStatus.OK);
     }
