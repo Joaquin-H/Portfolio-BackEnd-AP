@@ -24,7 +24,6 @@ com\apjoaquin\apjoaquin\Security\Dto\NuevoUsuario.class
 com\apjoaquin\apjoaquin\Repository\REducacion.class
 com\apjoaquin\apjoaquin\Security\Repository\IUsuarioRepository.class
 com\apjoaquin\apjoaquin\ApjoaquinApplication.class
-com\apjoaquin\apjoaquin\Interface\IPersonaService.class
 com\apjoaquin\apjoaquin\Security\Service\UsuarioService.class
 com\apjoaquin\apjoaquin\Controller\CExperiencia.class
 com\apjoaquin\apjoaquin\Security\Entity\Usuario.class
@@ -32,6 +31,7 @@ com\apjoaquin\apjoaquin\Repository\Rhys.class
 com\apjoaquin\apjoaquin\Entity\Experiencia.class
 com\apjoaquin\apjoaquin\Repository\IPersonaRepository.class
 com\apjoaquin\apjoaquin\Security\Service\RolService.class
+com\apjoaquin\apjoaquin\Dto\dtoPersona.class
 com\apjoaquin\apjoaquin\Dto\dtoEducacion.class
 com\apjoaquin\apjoaquin\Dto\dtoHys.class
 com\apjoaquin\apjoaquin\Security\Enums\RolNombre.class

@@ -20,7 +20,10 @@ public class Persona{
     @Size(min = 1, max = 50, message = "Supera el maximo de caracteres")
     private String apellido;
     
-    @Size(min = 1, max = 50, message = "Supera el maximo de caracteres")
+    @NotNull
+    @Size(min = 1, max = 120, message = "Supera el maximo de caracteres")
+    private String descripcion;
+    
     private String img;
 
     public Persona() {
@@ -29,7 +32,16 @@ public class Persona{
     public Persona(String nombre, String apellido, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.descripcion = descripcion;
         this.img = img;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
     
     public int getId() {
