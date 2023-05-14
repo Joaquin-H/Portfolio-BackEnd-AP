@@ -4,7 +4,9 @@ C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Dto\NuevoUsuario.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Dto\dtoExperiencia.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Entity\UsuarioPrincipal.java
+C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Entity\Proyectos.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\WebConfig.java
+C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Dto\dtoProyectos.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Repository\IRolRepository.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\jwt\JwtEntryPoint.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\jwt\JwtProvider.java
@@ -24,10 +26,13 @@ C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Service\ImpPersonaService.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Entity\Persona.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Controller\CExperiencia.java
+C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Controller\CProyectos.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Dto\dtoEducacion.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Dto\JwtDto.java
+C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Service\SProyectos.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Repository\REducacion.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Repository\Rhys.java
+C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Repository\RProyectos.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Repository\IUsuarioRepository.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Security\Service\UserDetailsImpl.java
 C:\Users\JoaJo\Desktop\Cursos\argentina_programa\portfolio-web\Portfolio-BackEnd-AP\src\main\java\com\apjoaquin\apjoaquin\Entity\hys.java

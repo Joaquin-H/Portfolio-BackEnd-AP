@@ -1,6 +1,7 @@
 com\apjoaquin\apjoaquin\Security\Entity\UsuarioPrincipal.class
 com\apjoaquin\apjoaquin\Security\Repository\IRolRepository.class
 com\apjoaquin\apjoaquin\Security\Service\UserDetailsImpl.class
+com\apjoaquin\apjoaquin\Dto\dtoProyectos.class
 com\apjoaquin\apjoaquin\Dto\dtoExperiencia.class
 com\apjoaquin\apjoaquin\Security\Dto\JwtDto.class
 com\apjoaquin\apjoaquin\Controller\CEducacion.class
@@ -9,6 +10,7 @@ com\apjoaquin\apjoaquin\Security\Entity\Rol.class
 com\apjoaquin\apjoaquin\Repository\RExperiencia.class
 com\apjoaquin\apjoaquin\Controller\PersonaController.class
 com\apjoaquin\apjoaquin\Security\Dto\LoginUsuario.class
+com\apjoaquin\apjoaquin\Controller\CProyectos.class
 com\apjoaquin\apjoaquin\Entity\hys.class
 com\apjoaquin\apjoaquin\Security\jwt\JwtEntryPoint.class
 com\apjoaquin\apjoaquin\Security\jwt\JwtTokenFilter.class
@@ -28,10 +30,13 @@ com\apjoaquin\apjoaquin\Security\Service\UsuarioService.class
 com\apjoaquin\apjoaquin\Controller\CExperiencia.class
 com\apjoaquin\apjoaquin\Security\Entity\Usuario.class
 com\apjoaquin\apjoaquin\Repository\Rhys.class
+com\apjoaquin\apjoaquin\Repository\RProyectos.class
 com\apjoaquin\apjoaquin\Entity\Experiencia.class
 com\apjoaquin\apjoaquin\Repository\IPersonaRepository.class
+com\apjoaquin\apjoaquin\Entity\Proyectos.class
 com\apjoaquin\apjoaquin\Security\Service\RolService.class
 com\apjoaquin\apjoaquin\Dto\dtoPersona.class
+com\apjoaquin\apjoaquin\Service\SProyectos.class
 com\apjoaquin\apjoaquin\Dto\dtoEducacion.class
 com\apjoaquin\apjoaquin\Dto\dtoHys.class
 com\apjoaquin\apjoaquin\Security\Enums\RolNombre.class
